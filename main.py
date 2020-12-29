@@ -3,7 +3,6 @@ from PIL import Image
 
 
 def tranform(r, g, b):
-    # if (b * 1.75 > r + g) and b > 16:
     tmp = b
     b = g // 2
     g = tmp
